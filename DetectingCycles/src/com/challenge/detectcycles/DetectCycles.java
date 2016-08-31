@@ -21,16 +21,7 @@ public class DetectCycles {
 		int len = 0;
 		while ((line = buffer.readLine()) != null) {
 			line = line.trim();
-			len = line.length();
-			for (int i = 1; i < len - 1; i = i + 2) {// 1,3,5
-				if (i < len / 2) {
-					for (int j = i; j >= 0; j--) {
 
-					}
-				} else {
-
-				}
-			}
 		}
 
 	}
